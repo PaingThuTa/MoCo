@@ -146,7 +146,7 @@ function FirstPage() {
             className={styles.amountInput}
             value={friend.amount}
             onChange={(e) => handleAmountChange(friend.id, e.target.value)}
-            placeholder="$"
+            placeholder="฿"
           />
         </div>
       ))}
