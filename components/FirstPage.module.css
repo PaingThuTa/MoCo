@@ -275,3 +275,50 @@
     padding: 8px;
   }
 }
+
+/* segmented toggle */
+.segmented {
+  display: inline-flex;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 9999px;
+  padding: 4px;
+  gap: 4px;
+  margin: 12px 0 8px;
+}
+.segmentedOption {
+  border: none;
+  background: transparent;
+  padding: 8px 14px;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #6b7280;
+}
+.segmentedOption:hover { background: #eef2ff; }
+.segmentedActive {
+  background: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 0 0 1px #e5e7eb inset;
+  color: #111827;
+}
+
+/* grouped cards for per-payer */
+.groupCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  background: #ffffff;
+}
+.groupHeader {
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #111827;
+}
+.groupBody .instructionRow {
+  padding: 6px 0;
+  border-top: 1px dashed #e5e7eb;
+}
+.groupBody .instructionRow:first-child {
+  border-top: none;
+}
