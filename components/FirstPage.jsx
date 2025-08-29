@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "./FirstPage.module.css";
 
 function FirstPage() {
-  const [friendCount, setFriendCount] = useState(4);
+  const [friendCount, setFriendCount] = useState(2);
   const [friends, setFriends] = useState(
     Array(10).fill(null).map((_, index) => ({
       id: index + 1,
