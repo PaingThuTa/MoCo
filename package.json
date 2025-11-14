@@ -2,9 +2,10 @@
   "name": "moco-money-splitter",
   "version": "1.0.0",
   "description": "MoCo Money Splitter for Friends",
-  "homepage": "https://PaingThuTa.github.io/MoCo/",
+  "homepage": "https://PaingThuTa.github.io/MoCo",
   "main": "index.js",
   "scripts": {
+  "build": "next build && next export",
   "dev": "next dev",
   "start": "next start",
   "lint": "next lint",
