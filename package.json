@@ -2,17 +2,18 @@
   "name": "moco-money-splitter",
   "version": "1.0.0",
   "description": "MoCo Money Splitter for Friends",
-  "homepage": "https://PaingThuTa.github.io/MoCo",
+  "homepage": "https://PaingThuTa.github.io/MoCo/",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
-    "build:gh": "next build && next export"
-  },
+  "dev": "next dev",
+  "start": "next start",
+  "lint": "next lint",
+
+  "build:gh": "next build && next export",
+  "predeploy": "npm run build:gh",  
+  "deploy": "gh-pages -d out"
+}
+  ,
   "dependencies": {
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.1",
